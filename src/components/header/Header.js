@@ -8,6 +8,6 @@ function Header() {
       <p>Het beste voedsel om goed te studeren!</p>
     </header>
   );
-};
+}
 
 export default Header;
