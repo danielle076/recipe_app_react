@@ -5,7 +5,7 @@ function Button({ children, clickHandler, type }) {
   return (
     <button
       type="button"
-      className={type === 'outline' ? styles.outline : styles.default}
+      className={type === styles[`button__outline`] ? styles[`button__outline`] : styles[`button`]}
       onClick={clickHandler}
     >
       { children }
